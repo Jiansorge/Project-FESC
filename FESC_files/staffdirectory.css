@@ -1,0 +1,363 @@
+/* CSS Document 
+*/
+#message {
+	padding: 5px;
+	width: 50%;
+	float: right;
+	text-align: center;
+	margin: 0;
+	position: relative;
+	top: -20px;
+}
+
+form.filterdirectory input,form.filterdirectory select {
+	border: 1px solid #ccc;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+form.staffdirectory tr input {
+	width: auto;
+	border-color: #e5f3ff;
+}
+
+form.staffdirectory div.formline {
+	width: auto;
+	margin: auto;
+	padding: 0 6px;
+}
+
+form.staffdirectory div.input {
+	float: left;
+	padding-bottom: 2px;
+}
+
+form.staffdirectory div.input label {
+	font-size: smaller;
+	margin: 0;
+	padding: 1px 0;
+}
+
+form.staffdirectory div.input input,form.staffdirectory div.input textarea,form.staffdirectory .myinput {
+	width: 100%;
+	margin: 1px 0 5px;
+	padding: 2px;
+	background-color: #EEE;
+	border: 1px solid #999;
+}
+
+form .submit {
+	border: 0;
+	text-align: right;
+}
+
+form p.submit_top {
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 8px;
+}
+
+table#staffdirectory-table {
+	border: 1px solid #e5f3ff;
+}
+
+table#staffdirectory-table th {
+	background: #e5f3ff;
+	text-align: left;
+	padding: 2px 4px;
+}
+
+table#staffdirectory-table tr {
+	position: static;
+}
+
+table#staffdirectory-table tr td {
+	border: 1px solid #e5f3ff;
+	margin: 3px;
+	padding: 1px 4px;
+}
+
+.alt-bg-color {
+	border: 1px solid #fff;
+	background-color: #e5f3ff;
+}
+
+table#staffdirectory-table tr.address-list td .address-label {
+	visibility: hidden;
+	position: absolute;
+	border: 10px solid #E5F3FF;
+	padding: 5px;
+	background: #fff;
+	left: 300px;
+	width: 400px;
+	z-index: 10;
+}
+
+table#staffdirectory-table tr.address-list:hover td .address-label {
+	visibility: visible;
+}
+
+table#directory-table {
+	position: relative;
+	border: 1px solid #333;
+	margin-bottom: 200px;
+}
+
+table#directory-table th {
+	background: #6b6bbe;
+	color: #FFF;
+	text-align: left;
+	padding: 10px;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+table#directory-table tr {
+	position: static;
+}
+
+table#directory-table a.hover {
+	display: block;
+}
+
+table#directory-table tr td {
+	border: 1px solid #6b6bbe;
+	margin: 3px;
+	padding: 10px 8px;
+}
+
+table#directory-table tr td.alt-bg-color {
+	border: 1px solid #6b6bbe;
+	background-color: #ddf;
+}
+
+table#directory-table tr.address-list td .address-label {
+	visibility: hidden;
+	position: absolute;
+	border: 10px solid #6b6bbe;
+	padding: 5px;
+	background: #fff;
+	left: 1px;
+	width: 400px;
+	margin-left: 100px;
+	z-index: 10;
+     border-radius: 5px;
+}
+
+table#directory-table tr.address-list:hover td .address-label {
+	visibility: visible;
+}
+
+#contact-info {
+	border: 10px solid #E5F3FF;
+	margin: 0 0 2% 42%;
+	padding: 5px;
+}
+
+.staffdirectory-card-data {
+	display: block;
+	padding: 3px 5px 3px 120px;
+}
+
+.staffdirectory-card p {
+	margin: 3px;
+	padding: 0;
+}
+
+.staffdirectory-card .name {
+	font-size: 1.2em;
+	font-weight: bolder;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.staffdirectory-card .avatar {
+	float: left;
+	margin: 0 0 0 5px;
+	padding: 0;
+	border-style:solid;
+	border-width:1px;
+	border-color:#333;
+}
+
+.staffdirectory-card p.address {
+	padding-left: 8px;
+	font-size: smaller;
+}
+
+.staffdirectory-card .notes {
+	font-size: smaller;
+	padding: 4px;
+}
+
+.staffdirectory-card .homepage,.staffdirectory-card .homepage a {
+	display: block;
+}
+
+#pubslist {
+	border-top: 5px solid #E5F3FF;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#pubslist ol {
+	padding: 5px;
+	display: list-item;
+}
+
+#pubslist ol li {
+	margin: 5px;
+	padding: 5px;
+	display: list-item;
+	list-style-type: decimal;
+}
+
+a#sd_return_link {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+div#staffdirectory_details {
+	padding: 10px;
+}
+
+div#staffdirectory_details p {
+	margin: 0 0 5px;
+	font-size: 12px;
+	padding: 0;
+}
+
+div#staffdirectory_details img.staffdirectory_img {
+	float: right;
+	padding: 0 0 10px 10px;
+	margin: 0;
+}
+
+div#staffdirectory_details p.name {
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 0;
+	margin: 0;
+}
+
+div#staffdirectory_details p.affiliation {
+}
+
+div#staffdirectory_details p.phone {
+	margin: 0;
+}
+
+div#staffdirectory_details p.fax {
+	margin: 0;
+}
+
+div#staffdirectory_details p.address {
+	padding: 0 0 0 20px;
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+div#staffdirectory_details div.education {
+	padding: 0;
+	margin: 15px 0;
+	font-size: 12px;
+}
+
+div#staffdirectory_details div.education p {
+	padding-left: 20px;
+}
+
+div#staffdirectory_details div.education p.ed_label {
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 0 0 3px;
+	margin: 0;
+}
+
+div#staffdirectory_details div.interests {
+	padding: 0;
+	margin: 15px 0;
+	font-size: 12px;
+}
+
+div#staffdirectory_details div.interests p.int_label {
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 0 0 3px;
+	margin: 0;
+}
+
+div#staffdirectory_details div.interests ul,div#staffdirectory_details div.interests ol {
+	padding: 0 20px;
+	margin: 0 20px;
+}
+
+div#staffdirectory_details div.interests li {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+div#staffdirectory_details div.interests p {
+	padding: 0 0 10px 20px;
+	margin-top: 0;
+}
+
+div#staffdirectory_details div.publications {
+	padding: 0;
+	margin: 15px 0;
+	font-size: 12px;
+}
+
+div#staffdirectory_details div.publications p.pub_label {
+	font-size: 16px;
+	font-weight: bolder;
+	padding: 0 0 3px;
+	margin: 0;
+}
+
+div#staffdirectory_details div.publications ul,div#staffdirectory_details div.publications ol {
+	padding: 0 20px;
+	margin: 0 20px;
+}
+
+div#staffdirectory_details div.publications li {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+div#sd_university_list {
+	padding: 20px 0 0 50px;
+	margin: 0;
+}
+
+div#sd_university_list li {
+	list-style-type: circle;
+	padding: 3px 15px;
+	margin: 0 20px;
+}
+
+div#sd_areas_list {
+	padding: 20px 0 0 30px;
+	margin: 0;
+}
+
+div#sd_areas_list div#sd_areas_list_left {
+	float: left;
+	width: 300px;
+	margin: 0;
+}
+
+div#sd_areas_list div#sd_areas_list_right {
+	float: right;
+	width: 300px;
+	margin: 0;
+}
+
+div#sd_areas_list li {
+	list-style-type: circle;
+	padding: 3px 15px;
+	margin: 0 20px;
+}
