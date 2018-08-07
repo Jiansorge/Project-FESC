@@ -1,0 +1,22 @@
+.flex-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.school-img {
+  border-radius: 25px;
+  background-color: #f0f0f0;
+  border-style: ridge;
+  border-color: #3333aa; }
+
+/*# sourceMappingURL=styles.css.map */
