@@ -1,6 +1,40 @@
 // HTML 300 Florida Energy Redesign Project
 @import 'colors';
 
-.nav {
-   
+header {
+  background-color: transparent;
+  width: 100%;
+  max-width: 1000px;
+
 }
+
+.title-icon {
+  max-width: 100px;
+  // width: 100%
+}
+
+.inline {
+  display: inline-block;
+  flex-wrap:nowrap;
+
+}
+
+.top {
+  border: solid;
+  margin:0 auto;
+  padding: 0 .2rem;
+  text-align: default;
+  width:100%;
+  justify-content:space-around;
+}
+ .top-nav {
+   // border: solid;
+   padding: 1rem;
+   margin:0 auto;
+
+ }
+
+ .submit, input{
+   margin:0 auto;
+   height: 2rem;
+ }

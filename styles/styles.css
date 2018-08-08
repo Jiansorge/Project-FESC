@@ -1,3 +1,167 @@
+a {
+  color: black; }
+
+.brochure {
+  color: #015941; }
+
+header {
+  background-color: transparent; }
+
+.title-main {
+  background-color: #FFFFFF; }
+
+footer {
+  background-color: #FFFFFF; }
+
+.bottom-nav {
+  background-color: #007cc2;
+  color: #FFFFFF; }
+
+.school-nav {
+  background-color: #007cc2; }
+
+.contact-nav {
+  background-color: #007cc2; }
+
+.highlight {
+  background-color: #007cc2; }
+
+.submit {
+  background-color: #a80534;
+  color: #FFFFFF; }
+
+a {
+  color: black; }
+
+.brochure {
+  color: #015941; }
+
+header {
+  background-color: transparent; }
+
+.title-main {
+  background-color: #FFFFFF; }
+
+footer {
+  background-color: #FFFFFF; }
+
+.bottom-nav {
+  background-color: #007cc2;
+  color: #FFFFFF; }
+
+.school-nav {
+  background-color: #007cc2; }
+
+.contact-nav {
+  background-color: #007cc2; }
+
+.highlight {
+  background-color: #007cc2; }
+
+.submit {
+  background-color: #a80534;
+  color: #FFFFFF; }
+
+header {
+  background-color: transparent;
+  width: 100%;
+  max-width: 1000px; }
+
+.title-icon {
+  max-width: 100px; }
+
+.inline {
+  display: inline-block;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+
+.top {
+  border: solid;
+  margin: 0 auto;
+  padding: 0 .2rem;
+  text-align: default;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.top-nav {
+  padding: 1rem;
+  margin: 0 auto; }
+
+.submit, input {
+  margin: 0 auto;
+  height: 2rem; }
+
+a {
+  color: black; }
+
+.brochure {
+  color: #015941; }
+
+header {
+  background-color: transparent; }
+
+.title-main {
+  background-color: #FFFFFF; }
+
+footer {
+  background-color: #FFFFFF; }
+
+.bottom-nav {
+  background-color: #007cc2;
+  color: #FFFFFF; }
+
+.school-nav {
+  background-color: #007cc2; }
+
+.contact-nav {
+  background-color: #007cc2; }
+
+.highlight {
+  background-color: #007cc2; }
+
+.submit {
+  background-color: #a80534;
+  color: #FFFFFF; }
+
+.school-img {
+  border-radius: 25px;
+  background-color: #f0f0f0;
+  border-style: ridge;
+  border-color: #3333aa; }
+
+a {
+  color: black; }
+
+.brochure {
+  color: #015941; }
+
+header {
+  background-color: transparent; }
+
+.title-main {
+  background-color: #FFFFFF; }
+
+footer {
+  background-color: #FFFFFF; }
+
+.bottom-nav {
+  background-color: #007cc2;
+  color: #FFFFFF; }
+
+.school-nav {
+  background-color: #007cc2; }
+
+.contact-nav {
+  background-color: #007cc2; }
+
+.highlight {
+  background-color: #007cc2; }
+
+.submit {
+  background-color: #a80534;
+  color: #FFFFFF; }
+
 .flex-container {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -12,11 +176,5 @@
 * {
   margin: 0;
   padding: 0; }
-
-.school-img {
-  border-radius: 25px;
-  background-color: #f0f0f0;
-  border-style: ridge;
-  border-color: #3333aa; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -14,3 +14,45 @@ $font-color: #000000; // Black
 $font-link: $color1; // Hyperlink colors
 $font-link-visted: $color5;
 $font-link-hover: $color3;
+
+a {
+  color: black;
+}
+
+.brochure {
+  color: $color3;
+}
+
+header {
+  background-color: transparent;
+}
+
+.title-main {
+  background-color: $color6;
+}
+
+footer {
+  background-color: $color6;
+}
+
+.bottom-nav {
+  background-color: $color4;
+  color: $color6;
+}
+
+.school-nav {
+  background-color: $color4;
+}
+
+.contact-nav {
+  background-color: $color4;
+}
+
+.highlight {
+  background-color: $color4;
+}
+
+.submit {
+  background-color: $color1;
+  color: $color6;
+}
