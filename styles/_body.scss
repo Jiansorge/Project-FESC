@@ -11,8 +11,15 @@ body {
 //   padding: 100px 15px 200px 15px;
 // }
 
+.row-main img {
+  width:4rem;
+  height: 4rem;
+  margin-right: 12px;
+}
+
+
 h2 {
-  padding: 50px 0px 10px 0px;
+  padding: 50px 0px 30px 0px;
 }
 
 .row-main {
@@ -23,9 +30,11 @@ h2 {
   margin: 40px 0px 40px 15px;
 }
 
-.summit {
+.summit, .summit img{
   justify-content: center;
-
+  width: auto;
+  height: auto;
+  margin: 16px;
 }
 
 .main-subtitle {
@@ -40,7 +49,8 @@ h2 {
 
 .brochure {
   text-align: left;
-  padding-left: 3px;
+  padding: 16px;
+
 }
 
 //  p{

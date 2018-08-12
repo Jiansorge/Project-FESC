@@ -137,12 +137,16 @@ a h6,  .connect-group{
   border-top: groove black;
   // border-style: ;
   margin:0;
-  padding: 8px 0 0;
+  padding: 16px 0 0;
   width:100%;
   margin-bottom: -12px;
   display: inline-block;
   text-align: center;
 
+}
+
+a h3 {
+  padding-top: 8px;
 }
 
 a img {
