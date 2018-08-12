@@ -4,7 +4,34 @@
 @import 'header';
 @import 'footer';
 @import 'body';
+@import 'font';
 
 
 * { box-sizing: border-box;}
 * { margin: 0; padding: 0; };
+
+.row{
+    overflow: hidden;
+}
+
+ [class*="col-"] {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.inline {
+  display: inline-block;
+  // flex-wrap:nowrap;
+}
+
+@media (max-width: 767px) {
+  .input-position input {
+    margin: 0 auto;
+    display: block;
+  }
+}

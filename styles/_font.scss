@@ -1,4 +1,51 @@
 // HTML 300 Florida Energy Redesign Project
-$font-size: 0.9rem;
-$font-type: ;
+$font-size-md: 0.9rem;
+$font-size-xs: 0.8rem;
+
+$font-type1: 'Roboto', sans-serif;
+$font-type2: 'Open Sans', sans-serif;
+
 $font-weight: default;
+
+body {
+  font-family: $font-type1;
+  font-size: $font-size-md;
+}
+
+@media (max-width: 767px) {
+    fontsize: $font-size-xs;
+    display: block;
+    a h1 {
+      font-size: 0.6rem;
+
+    }
+  }
+
+.title {
+  font-size: $font-size-md;
+  font-weight: bold;
+}
+
+.top-nav h3{
+  font-size: 1.3rem;
+  font-family:$font-type2;
+  font-weight: bold;
+}
+
+.top-nav h6, .connect-subtitle {
+  font-size: .8rem;
+  font-family:$font-type2;
+  font-weight: bold;
+}
+
+p {
+  // font-family: $font-type2;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 .title-main {
+  font-weight: bold;
+}

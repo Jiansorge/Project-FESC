@@ -4,37 +4,122 @@
 header {
   background-color: transparent;
   width: 100%;
-  max-width: 1000px;
 
+  border: solid $color2;
 }
 
 .title-icon {
-  max-width: 100px;
-  // width: 100%
+  height: 1rem;
+  margin-top: 4px;
+  // margin-left: 3px;
 }
 
-.inline {
-  display: inline-block;
-  flex-wrap:nowrap;
+a h1 {
+  margin-left: 4px;
+  font-size: 0.9rem;
+  vertical-align: top;
+  padding-top: 4px;
+}
 
+.search-column {
+  padding: auto 0;
+  width: 100%;
+}
+
+.input {
+  width: 80%;
+  text-align:  left;
+  padding: 4px 7px;
+}
+
+.submit, input{
+
+  //width: 7rem;
+  text-align: left;
+  border-radius: 6px;
+  .searchbar{
+    width: 35px;
+    height: 1.5rem;
+  }
+  margin-bottom: 6px;
+}
+
+.searchbar {
+  text-align: left;
+  padding: 2px 3px;
+}
+
+
+#searchinput {
+  width: 30%;
+  max-width: 400px;
+  min-width: 185px;
+  text-align: left;
+}
+
+button {
+  width:30px;
+  height: 30px;
+  vertical-align: top;
+}
+
+
+.title {
+  border: solid $color4;
+  display: block;
+  padding-top: 4px;
 }
 
 .top {
-  border: solid;
-  margin:0 auto;
-  padding: 0 .2rem;
-  text-align: default;
+  border: solid $color4;
+  margin:0;
+  padding: 6px;
   width:100%;
-  justify-content:space-around;
+  justify-content:left;
+  text-align: left;
 }
- .top-nav {
-   // border: solid;
-   padding: 1rem;
-   margin:0 auto;
 
- }
+.top-nav {
+  margin: 0 2px;
+}
 
- .submit, input{
-   margin:0 auto;
-   height: 2rem;
- }
+.nav-border {
+  border: solid $color3;
+}
+
+.connect {
+
+}
+.connect-icon {
+  display: inline-block;
+  // margin: 0;
+  // padding: 0;
+}
+
+.connect-subtitle {
+  margin-top: 10px;
+}
+
+
+
+.top-nav {
+  // border: solid;
+  // padding: 1rem;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+a h6,  .connect-group{
+  border-top: solid $color1;
+  margin:0;
+  padding: 10px 0;
+  width:100%;
+
+  display: inline-block;
+  text-align: left;
+
+}
+
+a img {
+    vertical-align:top;
+}
