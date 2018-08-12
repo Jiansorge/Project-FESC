@@ -65,6 +65,9 @@ li:before {
 .nav-research-element {
   color: red; }
 
+.nav-institutions li:before {
+  color: black; }
+
 a:link {
   color: black; }
 
@@ -123,6 +126,9 @@ li:before {
 
 .nav-research-element {
   color: red; }
+
+.nav-institutions li:before {
+  color: black; }
 
 header {
   background-color: transparent;
@@ -277,6 +283,9 @@ li:before {
 .nav-research-element {
   color: red; }
 
+.nav-institutions li:before {
+  color: black; }
+
 .newsletter-icon {
   margin: 3px 5px; }
 
@@ -385,6 +394,9 @@ li:before {
 .nav-research-element {
   color: red; }
 
+.nav-institutions li:before {
+  color: black; }
+
 body {
   width: 100%;
   max-width: 1300px; }
@@ -427,6 +439,20 @@ ul {
 
 .summary li:before {
   content: "\f1bb";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em;
+  width: 1.3em; }
+
+.nav-institutions li:before {
+  content: "\f19c";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em;
+  width: 1.3em; }
+
+.nav-facilities li:before {
+  content: "\f0eb";
   font-family: FontAwesome;
   display: inline-block;
   margin-left: -1.5em;

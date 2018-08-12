@@ -52,7 +52,7 @@ h2 {
 // technical.html
 ul {
   list-style: none;
-
+  // margin-right: 50%;
 }
 
 .nav-research li:before {
@@ -65,6 +65,23 @@ ul {
 
 .summary li:before {
   content: "\f1bb";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em;
+  width: 1.3em;
+}
+
+// facilities.html
+.nav-institutions li:before {
+  content: "\f19c";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em;
+  width: 1.3em;
+}
+
+.nav-facilities li:before {
+  content: "\f0eb";
   font-family: FontAwesome;
   display: inline-block;
   margin-left: -1.5em;
