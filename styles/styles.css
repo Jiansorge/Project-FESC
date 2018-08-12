@@ -286,8 +286,12 @@ li:before {
 .nav-institutions li:before {
   color: black; }
 
+.row-newsletter {
+  text-align: center; }
+
 .newsletter-icon {
-  margin: 3px 5px; }
+  margin: 3px 0 0 3px;
+  padding: 0; }
 
 .newsletter-submit {
   padding: 3px 5px; }
@@ -295,7 +299,8 @@ li:before {
 #newsletter-input {
   width: 36%;
   max-width: 300px;
-  padding: 1px 6px; }
+  padding: 1px 6px;
+  min-width: 145px; }
 
 .nav-low {
   text-align: center;

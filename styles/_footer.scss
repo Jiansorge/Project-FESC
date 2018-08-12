@@ -1,10 +1,13 @@
 // HTML 300 Florida Energy Redesign Project
 @import 'colors';
 
-
+.row-newsletter {
+  text-align: center;
+}
 
 .newsletter-icon {
-  margin: 3px 5px;
+  margin: 3px 0 0 3px;
+  padding: 0;
 }
 
 
@@ -17,6 +20,7 @@
   width: 36%;
   max-width: 300px;
   padding: 1px 6px;
+  min-width:145px;
 }
 
 .nav-low {
