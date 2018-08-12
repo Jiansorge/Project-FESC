@@ -12,7 +12,7 @@ body {
 // }
 
 h2 {
-  padding: 50px 5px 10px 5px;
+  padding: 50px 0px 10px 0px;
 }
 
 .row-main {
@@ -29,7 +29,7 @@ h2 {
 }
 
 .main-subtitle {
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 .summary, .brochure {
@@ -40,7 +40,7 @@ h2 {
 
 .brochure {
   text-align: left;
-  padding-left: 1px;
+  padding-left: 3px;
 }
 
 //  p{
@@ -48,3 +48,25 @@ h2 {
 //   max-width: 40rem;
 //   margin: 25px 100px;
 // }
+
+// technical.html
+ul {
+  list-style: none;
+
+}
+
+.nav-research li:before {
+  content: "\f101";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+}
+
+.summary li:before {
+  content: "\f1bb";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em;
+  width: 1.3em;
+}

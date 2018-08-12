@@ -7,10 +7,10 @@
   padding: 0; }
 
 a:link {
-  color: #a80534; }
+  color: black; }
 
 a:visited {
-  color: #FFFFFF; }
+  color: #a80534; }
 
 a:hover, a:active {
   color: #ffb900; }
@@ -47,6 +47,9 @@ footer {
   background-color: #a80534;
   color: #FFFFFF; }
 
+.highlight:nth-child(2) {
+  color: #FFFFFF; }
+
 .brochure {
   color: #015941; }
 
@@ -55,12 +58,18 @@ footer {
 
 .contact-nav a {
   color: #FFFFFF; }
+
+li:before {
+  color: #015941; }
+
+.nav-research-element {
+  color: red; }
 
 a:link {
-  color: #a80534; }
+  color: black; }
 
 a:visited {
-  color: #FFFFFF; }
+  color: #a80534; }
 
 a:hover, a:active {
   color: #ffb900; }
@@ -97,6 +106,9 @@ footer {
   background-color: #a80534;
   color: #FFFFFF; }
 
+.highlight:nth-child(2) {
+  color: #FFFFFF; }
+
 .brochure {
   color: #015941; }
 
@@ -105,11 +117,16 @@ footer {
 
 .contact-nav a {
   color: #FFFFFF; }
+
+li:before {
+  color: #015941; }
+
+.nav-research-element {
+  color: red; }
 
 header {
   background-color: transparent;
-  width: 100%;
-  border: solid #ffb900; }
+  width: 100%; }
 
 .title-icon {
   height: 1rem;
@@ -119,12 +136,13 @@ a h1 {
   margin-left: 4px;
   font-size: 0.9rem;
   vertical-align: top;
-  padding-top: 8px; }
+  padding-top: 8px;
+  margin-bottom: 40px; }
 
 .search-column {
   padding: auto 0;
   width: 100%;
-  text-align: right; }
+  text-align: center; }
 
 .input {
   width: 80%;
@@ -141,7 +159,7 @@ a h1 {
 
 .searchbar {
   text-align: left;
-  padding: 2px 3px; }
+  padding: 2px 4px; }
 
 #searchinput {
   width: 30%;
@@ -150,18 +168,16 @@ a h1 {
   text-align: right; }
 
 button {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   vertical-align: top; }
 
 .title {
-  border: solid #007cc2;
   display: block;
   padding-top: 4px;
   margin: auto 0; }
 
 .top {
-  border: solid #007cc2;
   margin: 0;
   padding: 6px;
   width: 100%;
@@ -173,8 +189,9 @@ button {
 .top-nav {
   margin: 0 2px; }
 
-.nav-border {
-  border: solid #015941; }
+.row-nav {
+  width: 100%;
+  margin: 0; }
 
 .top-nav h3, .top-nav h6 {
   text-align: center; }
@@ -190,7 +207,7 @@ button {
   margin-right: auto; }
 
 a h6, .connect-group {
-  border-top: solid #a80534;
+  border-top: groove black;
   margin: 0;
   padding: 8px 0 0;
   width: 100%;
@@ -202,10 +219,10 @@ a img {
   vertical-align: top; }
 
 a:link {
-  color: #a80534; }
+  color: black; }
 
 a:visited {
-  color: #FFFFFF; }
+  color: #a80534; }
 
 a:hover, a:active {
   color: #ffb900; }
@@ -242,6 +259,9 @@ footer {
   background-color: #a80534;
   color: #FFFFFF; }
 
+.highlight:nth-child(2) {
+  color: #FFFFFF; }
+
 .brochure {
   color: #015941; }
 
@@ -250,6 +270,12 @@ footer {
 
 .contact-nav a {
   color: #FFFFFF; }
+
+li:before {
+  color: #015941; }
+
+.nav-research-element {
+  color: red; }
 
 .newsletter-icon {
   margin: 3px 5px; }
@@ -272,7 +298,8 @@ footer {
   background-color: #007cc2; }
 
 .row-school {
-  width: 100%; }
+  width: 100%;
+  margin: auto 0px; }
 
 .school-img {
   border-radius: 100px;
@@ -293,16 +320,17 @@ footer p:first-child {
   padding: 7px 0px 0px; }
 
 .contact-nav {
-  width: 100%; }
+  width: 100%;
+  padding: 2px 0 2px; }
 
 a {
   text-align: center; }
 
 a:link {
-  color: #a80534; }
+  color: black; }
 
 a:visited {
-  color: #FFFFFF; }
+  color: #a80534; }
 
 a:hover, a:active {
   color: #ffb900; }
@@ -339,6 +367,9 @@ footer {
   background-color: #a80534;
   color: #FFFFFF; }
 
+.highlight:nth-child(2) {
+  color: #FFFFFF; }
+
 .brochure {
   color: #015941; }
 
@@ -348,12 +379,18 @@ footer {
 .contact-nav a {
   color: #FFFFFF; }
 
+li:before {
+  color: #015941; }
+
+.nav-research-element {
+  color: red; }
+
 body {
   width: 100%;
   max-width: 1300px; }
 
 h2 {
-  padding: 50px 5px 10px 5px; }
+  padding: 50px 0px 10px 0px; }
 
 .row-main {
   margin: 40px 0px 40px 0px; }
@@ -367,7 +404,7 @@ h2 {
           justify-content: center; }
 
 .main-subtitle {
-  margin-left: 10px; }
+  margin-left: 0; }
 
 .summary, .brochure {
   width: 100%;
@@ -376,7 +413,24 @@ h2 {
 
 .brochure {
   text-align: left;
-  padding-left: 1px; }
+  padding-left: 3px; }
+
+ul {
+  list-style: none; }
+
+.nav-research li:before {
+  content: "\f101";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em; }
+
+.summary li:before {
+  content: "\f1bb";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.5em;
+  width: 1.3em; }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -415,6 +469,10 @@ h2 {
 
 h3 .title-main {
   font-weight: bold; }
+
+.highlight:nth-child(2) {
+  font-size: 1.4rem;
+  font-weight: lighter; }
 
 .nav-low-element h3 {
   font-family: "Roboto", sans-serif;

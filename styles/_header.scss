@@ -5,7 +5,7 @@ header {
   background-color: transparent;
   width: 100%;
 
-  border: solid $color2;
+  // border: solid $color2;
 }
 
 .title-icon {
@@ -19,12 +19,13 @@ a h1 {
   font-size: 0.9rem;
   vertical-align: top;
   padding-top: 8px;
+  margin-bottom: 40px;
 }
 
 .search-column {
   padding: auto 0;
   width: 100%;
-  text-align: right;
+  text-align: center;
   // flex-wrap: wrap-reverse;
 }
 
@@ -48,7 +49,7 @@ a h1 {
 
 .searchbar {
   text-align: left;
-  padding: 2px 3px;
+  padding: 2px 4px;
 }
 
 
@@ -60,21 +61,21 @@ a h1 {
 }
 
 button {
-  width:30px;
-  height: 30px;
+  width:35px;
+  height: 35px;
   vertical-align: top;
 }
 
 
 .title {
-  border: solid $color4;
+  // border: solid $color4;
   display: block;
   padding-top: 4px;
   margin: auto 0;
 }
 
 .top {
-  border: solid $color4;
+  // border: solid $color4;
   margin:0;
   padding: 6px;
   width:100%;
@@ -84,12 +85,19 @@ button {
 
 .top-nav {
   margin: 0 2px;
+  // width:100%;
+}
+
+.row-nav {
+  width: 100%;
+  margin: 0;
 }
 
 .nav-border {
-  border: solid $color3;
+  // border: solid $color3;
   // height: 140px;
-
+  // margin: 0;
+  // width: auto;
 }
 
 .top-nav h3, .top-nav h6 {
@@ -122,8 +130,12 @@ button {
   margin-right:auto;
 }
 
+
+
 a h6,  .connect-group{
-  border-top: solid $color1;
+  // TODO
+  border-top: groove black;
+  // border-style: ;
   margin:0;
   padding: 8px 0 0;
   width:100%;
