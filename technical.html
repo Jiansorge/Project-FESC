@@ -52,14 +52,14 @@
       <!-- <div class="col-sm-1"></div> -->
       <div class ="inline col-xs-12 col-sm-12 col-md-6 justify-content-end align-items-start search-column">
 
-        <s!-- TODO: CENTER -->
-        <input autofocus="Search..." type="text" name="searchinput" id="searchbox" class="input " placeholder="Search FESC database..." autofocus>
+        <!-- TODO: CENTER -->
+        <input  type="text" name="searchinput" id="searchbox" class="input " placeholder="Search FESC database..." autofocus>
         <label for="searchbox"></label>
         <!-- col-xs-2 col-sm-1 -->
 
         <button type="submit" name="submit" Value="" class="submit inline searchbar">
         <i class="fa fa-search searchbar" aria-hidden="true"></i></button>
-
+      </div>
     </div>
 
     <!-- Top Navigation Bar -->
@@ -97,7 +97,7 @@
         <div class=" col-md-2 col-sm-4 col-xs-12 nav-border">
           <a href="#" class="top-nav">
             <h3 class="connect">Connect</h3>
-
+          </a>
             <!-- </h3> -->
             <div class="row connect-group justify-content-center align-items-end">
               <a title="Link to FESC Facebook page" href="https://www.facebook.com/pages/Florida-Energy-Systems-Consortium/1491171257838230" target="_blank" class ="connect-icon inline">
@@ -105,7 +105,9 @@
               </a>
 
               <a title="Link to FESC Twitter page" href="https://twitter.com/FESC_UF" target="_blank" class="connect-icon inline">
-                <img  src="http://floridaenergy.ufl.edu/wp-content/uploads/twitter.jpg" alt="twitter icon" width="22" height="22" srcset="http://floridaenergy.ufl.edu/wp-content/uploads/twitter.jpg, http://floridaenergy.ufl.edu/wp-content/uploads/twitter-150x150.jpg" sizes=""/>
+                <img  src="http://floridaenergy.ufl.edu/wp-content/uploads/twitter.jpg" alt="twitter icon" width="22" height="22"
+                />
+                <!-- srcset="http://floridaenergy.ufl.edu/wp-content/uploads/twitter.jpg, http://floridaenergy.ufl.edu/wp-content/uploads/twitter-150x150.jpg" -->
               </a>
             </div>
             <!--
@@ -113,7 +115,7 @@
 
               <h6 class="connect-subtitle">Contact & Newsletter</h6>
             </a> -->
-          </a>
+
         </div>
       </div>
     </nav>
@@ -123,9 +125,9 @@
   <!--  -->
 
   <main class="container-fluid">
-    <div class="row row-main align-items-end">
+    <div class="row row-main align-items-end justify-content-md-start justify-content-xs-center">
 
-      <img src="FESC_files/FESC_Logo_1.png" class="icon-main inline">
+      <img src="FESC_files/FESC_Logo_1.png" alt="" class="icon-main inline">
 
 
       <h2 class="row-main inline">FESC Technical Work</h2>
@@ -200,7 +202,6 @@
 
    </div>
 
-   </div>
 
 
 
@@ -223,7 +224,7 @@
 
 
     <div class="row row-main justify-content-center summit">
-      <a href="http://www.floridaenergysummit.com/index.html"><img src="http://floridaenergy.ufl.edu/wp-content/uploads/florida-energy-summit-2017.jpg" class=""/></a>
+      <a href="http://www.floridaenergysummit.com/index.html"><img src="http://floridaenergy.ufl.edu/wp-content/uploads/florida-energy-summit-2017.jpg" alt="Florida Energy Summit 2018." class=""/></a>
     </div>
 
   </main>
@@ -236,11 +237,11 @@
       <div class="col-xs-12 col-sm-6">
         <label class="inline">Sign up for our Newsletter</label>
 
-        <img class="newsletter-icon inline" src="FESC_files/envelope-300x196.png" width="30px" height="20px">
+        <img class="newsletter-icon inline" src="FESC_files/envelope-300x196.png" alt="">
       </div>
-      <div class="col-xs-12 col-sm-6"
+      <div class="col-xs-12 col-sm-6">
         <!-- TODO: -->
-        <input name="newsletter-input" id="newsletter-input" size="" placeholder="name@example.com" class="inline" type="email">
+        <input name="newsletter-input" id="newsletter-input"  placeholder="name@example.com" class="inline" type="email">
 
         <input name="newsletter-submit" value="Submit" onclick="openSignupForm();return false;" id="newletter-button" class="newsletter-submit inline" type="submit">
       </div>
@@ -277,7 +278,7 @@
     </nav>
 
     <!-- Mission Recap -->
-    <div="row justify-content-center">
+    <div class="row justify-content-center">
       <p class="address mission"> The <b>FESC's</b> mission is to <i>"perform research and development on innovative energy systems that lead to alternative energy strategies, improved energy efficiencies, and expanded economic development for the state."</i>
       </p>
     </div>
@@ -341,7 +342,7 @@
         </div>
       </div>
     </nav>
-    </footer>
+  </footer>
 
 <!-- </div> -->
 </body>

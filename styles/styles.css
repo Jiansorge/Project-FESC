@@ -414,12 +414,13 @@ body {
   max-width: 1300px; }
 
 .row-main img {
-  width: 4rem;
-  height: 4rem;
+  width: 10%;
+  min-width: 2rem;
+  max-width: 4rem;
   margin-right: 12px; }
 
 h2 {
-  padding: 50px 0px 12px 0px; }
+  padding: 8px 0px 8px 0px; }
 
 .row-main {
   margin: 40px 0px 0px 0px; }
@@ -431,7 +432,8 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: auto;
+  width: 100%;
+  max-width: none;
   height: auto;
   margin: 16px; }
 
@@ -441,7 +443,7 @@ h2 {
 .summary, .brochure {
   width: 100%;
   max-width: 40rem;
-  margin: 12px auto; }
+  margin: 12px 8px; }
 
 .brochure {
   text-align: left;

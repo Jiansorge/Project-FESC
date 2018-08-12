@@ -51,14 +51,14 @@
       <!-- <div class="col-sm-1"></div> -->
       <div class ="inline col-xs-12 col-sm-12 col-md-6 justify-content-end align-items-start search-column">
 
-        <s!-- TODO: CENTER -->
-        <input autofocus="Search..." type="text" name="searchinput" id="searchbox" class="input " placeholder="Search FESC database..." autofocus>
+        <!-- TODO: CENTER -->
+        <input  type="text" name="searchinput" id="searchbox" class="input " placeholder="Search FESC database..." autofocus>
         <label for="searchbox"></label>
         <!-- col-xs-2 col-sm-1 -->
 
         <button type="submit" name="submit" Value="" class="submit inline searchbar">
         <i class="fa fa-search searchbar" aria-hidden="true"></i></button>
-
+      </div>
     </div>
 
     <!-- Top Navigation Bar -->
@@ -96,7 +96,7 @@
         <div class=" col-md-2 col-sm-4 col-xs-12 nav-border">
           <a href="#" class="top-nav">
             <h3 class="connect">Connect</h3>
-
+          </a>
             <!-- </h3> -->
             <div class="row connect-group justify-content-center align-items-end">
               <a title="Link to FESC Facebook page" href="https://www.facebook.com/pages/Florida-Energy-Systems-Consortium/1491171257838230" target="_blank" class ="connect-icon inline">
@@ -104,7 +104,9 @@
               </a>
 
               <a title="Link to FESC Twitter page" href="https://twitter.com/FESC_UF" target="_blank" class="connect-icon inline">
-                <img  src="http://floridaenergy.ufl.edu/wp-content/uploads/twitter.jpg" alt="twitter icon" width="22" height="22" srcset="http://floridaenergy.ufl.edu/wp-content/uploads/twitter.jpg, http://floridaenergy.ufl.edu/wp-content/uploads/twitter-150x150.jpg" sizes=""/>
+                <img  src="http://floridaenergy.ufl.edu/wp-content/uploads/twitter.jpg" alt="twitter icon" width="22" height="22"
+                />
+                <!-- srcset="http://floridaenergy.ufl.edu/wp-content/uploads/twitter.jpg, http://floridaenergy.ufl.edu/wp-content/uploads/twitter-150x150.jpg" -->
               </a>
             </div>
             <!--
@@ -112,7 +114,7 @@
 
               <h6 class="connect-subtitle">Contact & Newsletter</h6>
             </a> -->
-          </a>
+
         </div>
       </div>
     </nav>
@@ -123,12 +125,12 @@
 
   <main class="container-fluid">
 
-    <div class="row row-main align-items-end">
+    <div class="row row-main align-items-end justify-content-md-start justify-content-xs-center">
 
       <!-- TODO: Create image/video background for header -->
       <!-- <object data="" name="" alt="">    </object> -->
 
-      <img src="FESC_files/FESC_Logo_1.png" class="icon-main inline">
+      <img src="FESC_files/FESC_Logo_1.png" alt="" class="icon-main inline">
 
 
       <h2 class="row-main inline">Bringing Energy Solutions to Florida</h2>
@@ -141,7 +143,7 @@
 
 
     <div class="row row-main summit">
-      <a href="http://www.floridaenergysummit.com/index.html"><img src="http://floridaenergy.ufl.edu/wp-content/uploads/florida-energy-summit-2017.jpg" class=""/></a>
+      <a href="http://www.floridaenergysummit.com/index.html"><img src="http://floridaenergy.ufl.edu/wp-content/uploads/florida-energy-summit-2017.jpg" alt="Florida Energy Summit, 2017." class=""/></a>
     </div>
 
 
@@ -151,7 +153,7 @@
 
       <a href="#" class="col-xs-12 col-md-4">
         <div class="highlight">
-          <img class="highlight-image" alt="" src="#" title="Learn More">
+          <img class="highlight-image" alt="University Research." src="#" title="Learn More">
           <!-- <p class="highlight">Learn More</p> -->
         </div>
         <h2 class="highlight">University Research</h2>
@@ -162,7 +164,7 @@
 
       <a href="#" class="col-xs-12 col-md-4">
         <div class="highlight">
-          <img class="highlight-image" alt="" src="#" title="Join Us">
+          <img class="highlight-image" alt="Energy Videos." src="#" title="Watch Now">
           <!-- <p class="highlight">Join Us</p> -->
         </div>
         <h2 class="highlight">Lightbulb Jokes?</h2>
@@ -173,20 +175,20 @@
 
       <a href="#" class="col-xs-12 col-md-4">
         <div class="highlight">
-          <img id="" class="highlight-image" alt="" src="#" width="264" title="Watch Cam">
+          <img  class="highlight-image" alt="Quick Energy Facts." src="#" width="264" title="Learn More">
           <!-- <p class="highlight">Watch Cam</p> -->
         </div>
         <h2 class="highlight">Quick Facts</h2>
         <p class="highlight">Did you know that 61% of Florida's electriciy is produced by natural gas? Find out where our energy comes from!</p>
-        <p class="highlight" id="">Learn More</p>
+        <p class="highlight">Learn More</p>
       </a>
 
     </div>
 
 
     <div class ="row">
-      <div class="col-xs-12 center"
-        <iframe src="https://www.youtube.com/embed/YA2ofbdd-G8" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+      <div class="col-xs-12 center">
+        <iframe src="https://www.youtube.com/embed/YA2ofbdd-G8"  allowfullscreen="allowfullscreen"></iframe>
       </div>
     </div>
 
@@ -214,118 +216,118 @@
 
   <!--  -->
 
-  <footer class="container-fluid">
-    <!-- Site Map footer section -->
-    <div class="row justify-content-center summary row-newsletter">
-      <div class="col-xs-12 col-sm-6">
-        <label class="inline">Sign up for our Newsletter</label>
+<footer class="container-fluid">
+  <!-- Site Map footer section -->
+  <div class="row justify-content-center summary row-newsletter">
+    <div class="col-xs-12 col-sm-6">
+      <label class="inline">Sign up for our Newsletter</label>
 
-        <img class="newsletter-icon inline" src="FESC_files/envelope-300x196.png" width="30px" height="20px">
-      </div>
-      <div class="col-xs-12 col-sm-6"
-        <!-- TODO: -->
-        <input name="newsletter-input" id="newsletter-input" size="" placeholder="name@example.com" class="inline" type="email">
-
-        <input name="newsletter-submit" value="Submit" onclick="openSignupForm();return false;" id="newletter-button" class="newsletter-submit inline" type="submit">
-      </div>
+      <img class="newsletter-icon inline" src="FESC_files/envelope-300x196.png" alt="">
     </div>
+    <div class="col-xs-12 col-sm-6">
+      <!-- TODO: -->
+      <input name="newsletter-input" id="newsletter-input"  placeholder="name@example.com" class="inline" type="email">
 
-
-    <nav class="nav-low container-fluid align-items-center justify-content-center">
-      <div class="row align-items-center justify-content-start ">
-       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
-          <h3 class=""><a href="index.html">Home</a></h3>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
-          <h3 class=""><a href="#">About</a></h3>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4  col-lg-3 nav-low-element">
-          <h3 class=""><a href="technical.html">Technical</a></h3>
-        </div>
-        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
-          <h3 class=""><a href="industry.html">Industry</a></h3>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
-          <h3 class=""><a href="#">Energy Facts</a></h3>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
-          <h3 class=""><a href="#">FAQ</a></h3>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
-          <h3 class=""><a href="#">Contact Us</a></h3>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
-          <h3 class=""><a href="#">Sitemap</a></h3>
-        </div>
+      <input name="newsletter-submit" value="Submit" onclick="openSignupForm();return false;" id="newletter-button" class="newsletter-submit inline" type="submit">
     </div>
-    </nav>
-
-    <!-- Mission Recap -->
-    <div="row justify-content-center">
-      <p class="address mission"> The <b>FESC's</b> mission is to <i>"perform research and development on innovative energy systems that lead to alternative energy strategies, improved energy efficiencies, and expanded economic development for the state."</i>
-      </p>
-    </div>
-    <!-- University Partnership -->
-    <nav class="school-nav">
-      <div class="row justify-content-between row-school">
-        <a href="http://www.ufl.edu" class="school-img  col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_01.jpg" alt="University of Florida"></a>
-
-        <a href="http://www.fsu.edu" class="school-img  col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_02.jpg" alt="Florida State University"></a>
-
-        <a href="http://www.ucf.edu" class="school-img  col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_03.jpg" alt="University of Central Florida"></a>
-
-        <a href="http://www.usf.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_04.jpg" alt="University of South Florida"></a>
+  </div>
 
 
-
-        <a href="http://www.famu.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_05.jpg" alt="Florida Agricultural and Mechanical University"></a>
-
-
-        <a href="http://www.fau.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_06.jpg" alt="Florida Atlantic University"></a>
-
-        <!-- </div>
-
-        <div class="row"> -->
-        <a href="http://www.fgcu.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_07.jpg" alt="Florida Gulf Coast University"></a>
-
-        <a href="http://www.fiu.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_08.jpg" alt="Florida International University"></a>
-
-        <a href="http://www.ncf.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_09.jpg" alt="New College of Florida"></a>
-
-        <a href="http://www.unf.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_10.jpg" alt="University of North Florida"></a>
-
-        <a href="http://www.uwf.edu" class="school-img col-xs-6 col-sm-3 col-md-2 center" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_11.jpg" alt="University of West Florida"></a>
-
-        <a href="https://floridapolytechnic.org/" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_12.jpg" alt="Florida Polytechnic University"></a>
+  <nav class="nav-low container-fluid align-items-center justify-content-center">
+    <div class="row align-items-center justify-content-start ">
+     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
+        <h3 class=""><a href="index.html">Home</a></h3>
       </div>
-    </nav>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
+        <h3 class=""><a href="#">About</a></h3>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4  col-lg-3 nav-low-element">
+        <h3 class=""><a href="technical.html">Technical</a></h3>
+      </div>
+      <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
+        <h3 class=""><a href="industry.html">Industry</a></h3>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
+        <h3 class=""><a href="#">Energy Facts</a></h3>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
+        <h3 class=""><a href="#">FAQ</a></h3>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
+        <h3 class=""><a href="#">Contact Us</a></h3>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 nav-low-element">
+        <h3 class=""><a href="#">Sitemap</a></h3>
+      </div>
+  </div>
+  </nav>
 
-    <!-- Lower footer section -->
+  <!-- Mission Recap -->
+  <div class="row justify-content-center">
+    <p class="address mission"> The <b>FESC's</b> mission is to <i>"perform research and development on innovative energy systems that lead to alternative energy strategies, improved energy efficiencies, and expanded economic development for the state."</i>
+    </p>
+  </div>
+  <!-- University Partnership -->
+  <nav class="school-nav">
+    <div class="row justify-content-between row-school">
+      <a href="http://www.ufl.edu" class="school-img  col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_01.jpg" alt="University of Florida"></a>
+
+      <a href="http://www.fsu.edu" class="school-img  col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_02.jpg" alt="Florida State University"></a>
+
+      <a href="http://www.ucf.edu" class="school-img  col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_03.jpg" alt="University of Central Florida"></a>
+
+      <a href="http://www.usf.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_04.jpg" alt="University of South Florida"></a>
+
+
+
+      <a href="http://www.famu.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_05.jpg" alt="Florida Agricultural and Mechanical University"></a>
+
+
+      <a href="http://www.fau.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_06.jpg" alt="Florida Atlantic University"></a>
+
+      <!-- </div>
+
+      <div class="row"> -->
+      <a href="http://www.fgcu.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_07.jpg" alt="Florida Gulf Coast University"></a>
+
+      <a href="http://www.fiu.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_08.jpg" alt="Florida International University"></a>
+
+      <a href="http://www.ncf.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_09.jpg" alt="New College of Florida"></a>
+
+      <a href="http://www.unf.edu" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_10.jpg" alt="University of North Florida"></a>
+
+      <a href="http://www.uwf.edu" class="school-img col-xs-6 col-sm-3 col-md-2 center" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_11.jpg" alt="University of West Florida"></a>
+
+      <a href="https://floridapolytechnic.org/" class="school-img col-xs-6 col-sm-3 col-md-2" target="_blank"><img src="http://floridaenergy.ufl.edu/wp-content/themes/fesc/images/logo_12.jpg" alt="Florida Polytechnic University"></a>
+    </div>
+  </nav>
+
+  <!-- Lower footer section -->
+  <div class="row justify-content-center">
+      <p class="address">&#169; 2018, Florida Energy Systems Consortium <br>
+        272 Grinter Hall | P.O. Box 115500 | Gainesville, FL 32611-550</p>
+  </div>
+  <nav class="contact-nav ">
     <div class="row justify-content-center">
-        <p class="address">&#169; 2018, Florida Energy Systems Consortium <br>
-          272 Grinter Hall | P.O. Box 115500 | Gainesville, FL 32611-550</p>
-    </div>
-    <nav class="contact-nav ">
-      <div class="row justify-content-center">
-        <div class="col-xs-12 col-sm-auto ">
-          <a class="" href="#">Contact Us</a>
-          |
-          <a class="" href="#">Site Map</a>
-          |
-        </div>
-
-        <div class="col-xs-12 col-sm-auto">
-          <a href="https://www.facebook.com/pages/Florida-Energy-Systems-Consortium/1491171257838230" class="contact-link fn__social-link fa fa-facebook" target="_blank">
-              <span class="fn__social-text visually-hidden"> FESC on Instagram</span>
-          </a>
-          |
-          <a href="https://twitter.com/FESC_UF" class="contact-link fn__social-link fa fa-twitter" target="_blank">
-              <span class=" fn__social-text visually-hidden"> FESC on Twitter</span>
-          </a>
-        </div>
+      <div class="col-xs-12 col-sm-auto ">
+        <a class="" href="#">Contact Us</a>
+        |
+        <a class="" href="#">Site Map</a>
+        |
       </div>
-    </nav>
-    </footer>
+
+      <div class="col-xs-12 col-sm-auto">
+        <a href="https://www.facebook.com/pages/Florida-Energy-Systems-Consortium/1491171257838230" class="contact-link fn__social-link fa fa-facebook" target="_blank">
+            <span class="fn__social-text visually-hidden"> FESC on Instagram</span>
+        </a>
+        |
+        <a href="https://twitter.com/FESC_UF" class="contact-link fn__social-link fa fa-twitter" target="_blank">
+            <span class=" fn__social-text visually-hidden"> FESC on Twitter</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+</footer>
 
 <!-- </div> -->
 </body>
