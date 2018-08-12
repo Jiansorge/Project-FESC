@@ -10,7 +10,7 @@ header {
 
 .title-icon {
   height: 1rem;
-  margin-top: 4px;
+  margin-top: 8px;
   // margin-left: 3px;
 }
 
@@ -18,17 +18,19 @@ a h1 {
   margin-left: 4px;
   font-size: 0.9rem;
   vertical-align: top;
-  padding-top: 4px;
+  padding-top: 8px;
 }
 
 .search-column {
   padding: auto 0;
   width: 100%;
+  text-align: right;
+  // flex-wrap: wrap-reverse;
 }
 
 .input {
   width: 80%;
-  text-align:  left;
+  text-align: left;
   padding: 4px 7px;
 }
 
@@ -54,7 +56,7 @@ a h1 {
   width: 30%;
   max-width: 400px;
   min-width: 185px;
-  text-align: left;
+  text-align: right;
 }
 
 button {
@@ -68,6 +70,7 @@ button {
   border: solid $color4;
   display: block;
   padding-top: 4px;
+  margin: auto 0;
 }
 
 .top {
@@ -85,19 +88,29 @@ button {
 
 .nav-border {
   border: solid $color3;
+  // height: 140px;
+
 }
 
-.connect {
+.top-nav h3, .top-nav h6 {
+  text-align: center;
 
+}
+
+
+.connect {
+  text-align: center;
 }
 .connect-icon {
   display: inline-block;
   // margin: 0;
   // padding: 0;
+  // height: 20px;
+
 }
 
 .connect-subtitle {
-  margin-top: 10px;
+  // margin-top: 10px;
 }
 
 
@@ -112,11 +125,11 @@ button {
 a h6,  .connect-group{
   border-top: solid $color1;
   margin:0;
-  padding: 10px 0;
+  padding: 8px 0 0;
   width:100%;
-
+  margin-bottom: -12px;
   display: inline-block;
-  text-align: left;
+  text-align: center;
 
 }
 

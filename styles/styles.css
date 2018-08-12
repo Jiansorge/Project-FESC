@@ -1,3 +1,20 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a:link {
+  color: #a80534; }
+
+a:visited {
+  color: #FFFFFF; }
+
+a:hover, a:active {
+  color: #ffb900; }
+
 a {
   color: black; }
 
@@ -30,6 +47,24 @@ footer {
   background-color: #a80534;
   color: #FFFFFF; }
 
+.brochure {
+  color: #015941; }
+
+.school-img {
+  background-color: #f0f0f0; }
+
+.contact-nav a {
+  color: #FFFFFF; }
+
+a:link {
+  color: #a80534; }
+
+a:visited {
+  color: #FFFFFF; }
+
+a:hover, a:active {
+  color: #ffb900; }
+
 a {
   color: black; }
 
@@ -60,6 +95,15 @@ footer {
 
 .submit {
   background-color: #a80534;
+  color: #FFFFFF; }
+
+.brochure {
+  color: #015941; }
+
+.school-img {
+  background-color: #f0f0f0; }
+
+.contact-nav a {
   color: #FFFFFF; }
 
 header {
@@ -69,17 +113,18 @@ header {
 
 .title-icon {
   height: 1rem;
-  margin-top: 4px; }
+  margin-top: 8px; }
 
 a h1 {
   margin-left: 4px;
   font-size: 0.9rem;
   vertical-align: top;
-  padding-top: 4px; }
+  padding-top: 8px; }
 
 .search-column {
   padding: auto 0;
-  width: 100%; }
+  width: 100%;
+  text-align: right; }
 
 .input {
   width: 80%;
@@ -102,7 +147,7 @@ a h1 {
   width: 30%;
   max-width: 400px;
   min-width: 185px;
-  text-align: left; }
+  text-align: right; }
 
 button {
   width: 30px;
@@ -112,7 +157,8 @@ button {
 .title {
   border: solid #007cc2;
   display: block;
-  padding-top: 4px; }
+  padding-top: 4px;
+  margin: auto 0; }
 
 .top {
   border: solid #007cc2;
@@ -130,11 +176,14 @@ button {
 .nav-border {
   border: solid #015941; }
 
+.top-nav h3, .top-nav h6 {
+  text-align: center; }
+
+.connect {
+  text-align: center; }
+
 .connect-icon {
   display: inline-block; }
-
-.connect-subtitle {
-  margin-top: 10px; }
 
 .top-nav {
   margin-left: auto;
@@ -143,14 +192,24 @@ button {
 a h6, .connect-group {
   border-top: solid #a80534;
   margin: 0;
-  padding: 10px 0;
+  padding: 8px 0 0;
   width: 100%;
+  margin-bottom: -12px;
   display: inline-block;
-  text-align: left; }
+  text-align: center; }
 
 a img {
   vertical-align: top; }
 
+a:link {
+  color: #a80534; }
+
+a:visited {
+  color: #FFFFFF; }
+
+a:hover, a:active {
+  color: #ffb900; }
+
 a {
   color: black; }
 
@@ -182,12 +241,71 @@ footer {
 .submit {
   background-color: #a80534;
   color: #FFFFFF; }
+
+.brochure {
+  color: #015941; }
 
 .school-img {
-  border-radius: 25px;
-  background-color: #f0f0f0;
+  background-color: #f0f0f0; }
+
+.contact-nav a {
+  color: #FFFFFF; }
+
+.newsletter-icon {
+  margin: 3px 5px; }
+
+.newsletter-submit {
+  padding: 3px 5px; }
+
+#newsletter-input {
+  width: 36%;
+  max-width: 300px;
+  padding: 1px 6px; }
+
+.nav-low {
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 0px; }
+
+.nav-low-element {
+  border: ridge #015941;
+  background-color: #007cc2; }
+
+.row-school {
+  width: 100%; }
+
+.school-img {
+  border-radius: 100px;
   border-style: ridge;
-  border-color: #3333aa; }
+  border-color: #3333aa;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  width: 50%; }
+
+.address {
+  padding-top: 20px;
+  text-align: center;
+  margin: 0 auto 10px; }
+
+footer p:first-child {
+  max-width: 600px;
+  padding: 7px 0px 0px; }
+
+.contact-nav {
+  width: 100%; }
+
+a {
+  text-align: center; }
+
+a:link {
+  color: #a80534; }
+
+a:visited {
+  color: #FFFFFF; }
+
+a:hover, a:active {
+  color: #ffb900; }
 
 a {
   color: black; }
@@ -219,12 +337,20 @@ footer {
 
 .submit {
   background-color: #a80534;
+  color: #FFFFFF; }
+
+.brochure {
+  color: #015941; }
+
+.school-img {
+  background-color: #f0f0f0; }
+
+.contact-nav a {
   color: #FFFFFF; }
 
 body {
   width: 100%;
-  max-width: 1000px;
-  line-height: 1; }
+  max-width: 1300px; }
 
 h2 {
   padding: 50px 5px 10px 5px; }
@@ -235,18 +361,38 @@ h2 {
 .highlight {
   margin: 40px 0px 40px 15px; }
 
+.summit {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
 .main-subtitle {
   margin-left: 10px; }
+
+.summary, .brochure {
+  width: 100%;
+  max-width: 40rem;
+  margin: 12px auto; }
+
+.brochure {
+  text-align: left;
+  padding-left: 1px; }
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 0.9rem; }
 
+@media (max-width: 480px) {
+  font-size: 0.7rem; }
 @media (max-width: 767px) {
   fontsize: 0.8rem;
   display: block;
   a h1 {
     font-size: 0.6rem; } }
+@media (max-width: 992px) {
+  fontsize: 0.9rem; }
+@media (max-width: 1200px) {
+  fontsize: 1.1rem; }
 .title {
   font-size: 0.9rem;
   font-weight: bold; }
@@ -261,19 +407,27 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: bold; }
 
+p {
+  font-family: "Open Sans", sans-serif; }
+
 h2 {
   font-weight: bold; }
 
 h3 .title-main {
   font-weight: bold; }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+.nav-low-element h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold; }
 
-* {
-  margin: 0;
-  padding: 0; }
+.contact-nav {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  word-spacing: 2px; }
+
+.test-borders {
+  border: solid red; }
 
 .row {
   overflow: hidden; }
@@ -281,6 +435,10 @@ h3 .title-main {
 [class*="col-"] {
   margin-bottom: -99999px;
   padding-bottom: 99999px; }
+
+.school-img {
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
 
 .flex-container {
   display: -webkit-inline-box;

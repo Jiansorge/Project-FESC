@@ -1,4 +1,7 @@
 // HTML 300 Florida Energy Redesign Projects
+* { box-sizing: border-box;}
+* { margin: 0; padding: 0; };
+
 
 @import 'colors';
 @import 'header';
@@ -6,9 +9,10 @@
 @import 'body';
 @import 'font';
 
+.test-borders {
+  border: solid red;
+}
 
-* { box-sizing: border-box;}
-* { margin: 0; padding: 0; };
 
 .row{
     overflow: hidden;
@@ -17,6 +21,11 @@
  [class*="col-"] {
     margin-bottom: -99999px;
     padding-bottom: 99999px;
+}
+
+.school-img {
+  margin-bottom:0px;
+  padding-bottom: 0px;
 }
 
 .flex-container {
