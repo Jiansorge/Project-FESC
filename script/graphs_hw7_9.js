@@ -106,7 +106,7 @@ function drawConsumptionChart(freshData) {
   data.addColumn('number', 'Total Electricity Consumption');
   data.addRows(freshData);
 
-  var options = {'title':'Total Electricity Consumption (i.e. sold) Florida',
+  var options = {'title':'Total Electricity Consumption (i.e. sold) in Florida',
                  legend: { position: 'bottom' },
                   vAxis: {title: "Billion Btu"},
                  hAxis: {title: "Year",
