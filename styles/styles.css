@@ -297,7 +297,8 @@ li:before {
 
 .newsletter-icon {
   margin: 3px 0 0 3px;
-  padding: 0; }
+  padding: 0;
+  width: 1.8rem; }
 
 .newsletter-submit {
   padding: 3px 5px; }
@@ -435,7 +436,7 @@ h2 {
   width: 100%;
   max-width: none;
   height: auto;
-  margin: 16px; }
+  margin: 16px 0; }
 
 .main-subtitle {
   margin-left: 0; }
@@ -450,7 +451,8 @@ h2 {
   padding: 16px; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  margin-left: 27px; }
 
 .nav-research li:before {
   content: "\f101";
