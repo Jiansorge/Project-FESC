@@ -1,3 +1,7 @@
+//<!-- FESC Resdesign Project - HTML 300  -->
+//<!-- Google Charts for Homeworks 7 and 9 - graphs_hw7_9.js -->
+//<!-- Included in technical.html -->
+
 // 1 DOMContentLoaded
 function onDOMLoad() {
   console.log("I'm the first step, I should load Google library.");
