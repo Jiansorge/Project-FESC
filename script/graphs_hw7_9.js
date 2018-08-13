@@ -23,7 +23,7 @@ function getData1() {
   // Create a new request object
   let request = new XMLHttpRequest();
   // URL to contact goes here
-  let requestUrl = "http://api.eia.gov/series/?api_key=626b941aa582f1466f09ff95922f4b50&series_id=SEDS.REPRB.FL.A";
+  let requestUrl = "https://api.eia.gov/series/?api_key=626b941aa582f1466f09ff95922f4b50&series_id=SEDS.REPRB.FL.A";
 
   request.open('GET', requestUrl, true);
   // Callback for when the request completes
