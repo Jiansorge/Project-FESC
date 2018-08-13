@@ -444,7 +444,7 @@ h2 {
 .summary, .brochure {
   width: 100%;
   max-width: 40rem;
-  margin: 12px 8px; }
+  margin: 12px auto; }
 
 .brochure {
   text-align: left;
@@ -467,6 +467,10 @@ ul {
   display: inline-block;
   margin-left: -1.5em;
   width: 1.3em; }
+
+.chart-* {
+  text-align: center;
+  margin: 5px auto; }
 
 .nav-institutions li:before {
   content: "\f19c";
