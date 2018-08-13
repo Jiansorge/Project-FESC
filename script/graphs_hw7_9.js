@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", onDOMLoad);
 // 3 Get data from API
 
 // Create Alternative Electricity Production Graph
-function getData() {
+function getData1() {
 
   console.log("Getting data is the third step!");
   // Create a new request object
