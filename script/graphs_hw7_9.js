@@ -6,7 +6,7 @@
 function onDOMLoad() {
   console.log("I'm the first step, I should load Google library.");
   google.charts.load('current', {'packages': ['corechart']});
-  google.charts.setOnLoadCallback(getData);
+  google.charts.setOnLoadCallback(getData1);
   google.charts.setOnLoadCallback(getData2);
 }
 // 2 Google chart library loaded
