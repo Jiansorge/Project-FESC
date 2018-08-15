@@ -168,6 +168,9 @@ header {
 .title-main {
   background-color: #FFFFFF; }
 
+.highlight-col *:hover, .highlight-col:hover {
+  background-color: #044180; }
+
 footer {
   background-color: #FFFFFF; }
 
@@ -215,6 +218,9 @@ footer {
 
 .contact-nav a {
   color: #FFFFFF; }
+
+.contact-nav a:hover {
+  background-color: #044180; }
 
 li:before {
   color: #00C786; }
@@ -386,6 +392,9 @@ header {
 .title-main {
   background-color: #FFFFFF; }
 
+.highlight-col *:hover, .highlight-col:hover {
+  background-color: #044180; }
+
 footer {
   background-color: #FFFFFF; }
 
@@ -433,6 +442,9 @@ footer {
 
 .contact-nav a {
   color: #FFFFFF; }
+
+.contact-nav a:hover {
+  background-color: #044180; }
 
 li:before {
   color: #00C786; }
@@ -705,6 +717,9 @@ header {
 .title-main {
   background-color: #FFFFFF; }
 
+.highlight-col *:hover, .highlight-col:hover {
+  background-color: #044180; }
+
 footer {
   background-color: #FFFFFF; }
 
@@ -752,6 +767,9 @@ footer {
 
 .contact-nav a {
   color: #FFFFFF; }
+
+.contact-nav a:hover {
+  background-color: #044180; }
 
 li:before {
   color: #00C786; }
@@ -984,6 +1002,9 @@ header {
 .title-main {
   background-color: #FFFFFF; }
 
+.highlight-col *:hover, .highlight-col:hover {
+  background-color: #044180; }
+
 footer {
   background-color: #FFFFFF; }
 
@@ -1031,6 +1052,9 @@ footer {
 
 .contact-nav a {
   color: #FFFFFF; }
+
+.contact-nav a:hover {
+  background-color: #044180; }
 
 li:before {
   color: #00C786; }
@@ -1216,4 +1240,5 @@ h3 .title-main {
   .input-position input {
     margin: 0 auto;
     display: block; } }
+
 /*# sourceMappingURL=styles.css.map */

@@ -121,6 +121,10 @@ header {
   background-color: $color6;
 }
 
+.highlight-col *:hover, .highlight-col:hover {
+  background-color: $color5;
+}
+
 footer {
   background-color: $color6;
 }
@@ -182,6 +186,10 @@ footer {
 
 .contact-nav a {
   color: $color6;
+}
+
+.contact-nav a:hover {
+  background-color: $color5;
 }
 
 // technical.html
