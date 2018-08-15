@@ -14,6 +14,20 @@
 }
 
 
+@media (min-width: 600px) {
+  .two-columns p {
+    column-count: 2;
+    column-gap: 3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .two-summary p {
+    column-count: 1;
+    column-gap: 2em;
+  }
+}
+
 .row{
     overflow: hidden;
 }

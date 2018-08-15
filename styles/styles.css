@@ -180,6 +180,10 @@ button {
   height: 35px;
   vertical-align: top; }
 
+button:hover {
+  border: black ridge 2px;
+  font-style: bold; }
+
 .title {
   display: block;
   padding-top: 4px;
@@ -303,6 +307,10 @@ li:before {
 .newsletter-submit {
   padding: 3px 5px; }
 
+.newsletter-submit:hover {
+  border: black ridge 2px;
+  font-weight: bold; }
+
 #newsletter-input {
   width: 36%;
   max-width: 300px;
@@ -313,6 +321,9 @@ li:before {
   text-align: center;
   vertical-align: middle;
   padding: 8px 0px; }
+
+.row-low {
+  margin: auto 0; }
 
 .nav-low-element {
   border: ridge #015941;
@@ -418,16 +429,22 @@ body {
   width: 10%;
   min-width: 2rem;
   max-width: 4rem;
-  margin-right: 12px; }
+  margin: 0  18px; }
 
 h2 {
   padding: 8px 0px 8px 0px; }
 
 .row-main {
-  margin: 40px 0px 0px 0px; }
+  margin: 40px 0px 0px 21px; }
 
 .highlight {
   margin: 40px 0px 40px 15px; }
+
+.highlight-container {
+  border: black solid; }
+
+.highlight-col {
+  border: black solid; }
 
 .summit, .summit img {
   -webkit-box-pack: center;
@@ -438,8 +455,10 @@ h2 {
   height: auto;
   margin: 16px 0; }
 
-.main-subtitle {
-  margin-left: 0; }
+iframe {
+  width: 100%;
+  max-width: 854px;
+  height: 480px; }
 
 .summary, .brochure {
   width: 100%;
@@ -448,7 +467,8 @@ h2 {
 
 .brochure {
   text-align: left;
-  padding: 16px; }
+  padding: 16px;
+  border: black 2px inset; }
 
 ul {
   list-style: none;
@@ -528,6 +548,9 @@ h3 .title-main {
   font-size: 1.4rem;
   font-weight: lighter; }
 
+.brochure {
+  font-size: 1.5rem; }
+
 .nav-low-element h3 {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
@@ -541,6 +564,18 @@ h3 .title-main {
 .test-borders {
   border: solid red; }
 
+@media (min-width: 600px) {
+  .two-columns p {
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 3em;
+            column-gap: 3em; } }
+@media (max-width: 600px) {
+  .two-summary p {
+    -webkit-column-count: 1;
+            column-count: 1;
+    -webkit-column-gap: 2em;
+            column-gap: 2em; } }
 .row {
   overflow: hidden; }
 

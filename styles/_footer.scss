@@ -17,6 +17,11 @@
   padding: 3px 5px;
 }
 
+.newsletter-submit:hover {
+  border: black ridge 2px;
+  font-weight:bold;
+}
+
 #newsletter-input {
   width: 36%;
   max-width: 300px;
@@ -29,6 +34,10 @@
   vertical-align:middle;
   padding: 8px 0px;
   // margin-bottom:0;
+}
+
+.row-low {
+  margin: auto 0;
 }
 
 .nav-low-element {
