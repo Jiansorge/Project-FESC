@@ -61,10 +61,15 @@ iframe {
 //   // margin-bottom: 16px;
 // }
 
+
 .summary, .brochure {
   width: 100%;
   max-width: 40rem;
   margin: 12px auto;
+}
+
+.two-columns p {
+  margin-top: 32px;
 }
 
 .wide {
