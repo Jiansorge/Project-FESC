@@ -528,6 +528,10 @@ button:hover {
   width: 100%;
   margin: 0; }
 
+.nav-border {
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+
 .top-nav h3, .top-nav h6 {
   text-align: center; }
 
@@ -824,6 +828,9 @@ li:before {
   padding-bottom: 0px;
   text-align: center;
   width: 50%; }
+
+.school-img img {
+  border-radius: 17px; }
 
 .address {
   padding-top: 20px;
@@ -1217,14 +1224,6 @@ h3 .title-main {
 
 .row {
   overflow: hidden; }
-
-[class*="col-"] {
-  margin-bottom: -99999px;
-  padding-bottom: 99999px; }
-
-.school-img {
-  margin-bottom: 0px;
-  padding-bottom: 0px; }
 
 .flex-container {
   display: -webkit-inline-box;
