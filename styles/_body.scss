@@ -24,7 +24,7 @@ h2 {
   padding: 25vw 0px 8px 0px;
   text-width: 100%;
   // margin-top: 80vw;
-  
+
 }
 
 .row-main {
@@ -105,7 +105,12 @@ iframe {
 // technical.html
 ul {
   list-style: none;
-  margin-left: 27px;;
+  margin-left: 27px;
+  opacity: 0.99;
+}
+
+li {
+  opacity: 0.99;
 }
 
 .nav-research li:before {

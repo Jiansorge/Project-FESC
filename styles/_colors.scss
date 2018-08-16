@@ -220,7 +220,7 @@ h1:hover {
 
 
 .highlight {
-  background-color: $color4;
+  background-color: $color1;
   z-index: 1;
 }
 
@@ -319,6 +319,10 @@ school-nav {
 }
 
 // technical.html
+ul {
+  background-color: $color6;
+}
+
 li:before {
   color: $color3;
 }

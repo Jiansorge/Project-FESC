@@ -328,7 +328,7 @@ h1:hover {
   z-index: 1; }
 
 .highlight {
-  background-color: #FF5600;
+  background-color: #0663C4;
   z-index: 1; }
 
 .highlight:nth-child(2) {
@@ -395,6 +395,9 @@ school-nav {
 
 .contact-nav a:hover {
   background-color: #00C786; }
+
+ul {
+  background-color: #FFFFFF; }
 
 li:before {
   color: #00C786; }
@@ -726,7 +729,7 @@ h1:hover {
   z-index: 1; }
 
 .highlight {
-  background-color: #FF5600;
+  background-color: #0663C4;
   z-index: 1; }
 
 .highlight:nth-child(2) {
@@ -793,6 +796,9 @@ school-nav {
 
 .contact-nav a:hover {
   background-color: #00C786; }
+
+ul {
+  background-color: #FFFFFF; }
 
 li:before {
   color: #00C786; }
@@ -1243,7 +1249,7 @@ h1:hover {
   z-index: 1; }
 
 .highlight {
-  background-color: #FF5600;
+  background-color: #0663C4;
   z-index: 1; }
 
 .highlight:nth-child(2) {
@@ -1310,6 +1316,9 @@ school-nav {
 
 .contact-nav a:hover {
   background-color: #00C786; }
+
+ul {
+  background-color: #FFFFFF; }
 
 li:before {
   color: #00C786; }
@@ -1709,7 +1718,7 @@ h1:hover {
   z-index: 1; }
 
 .highlight {
-  background-color: #FF5600;
+  background-color: #0663C4;
   z-index: 1; }
 
 .highlight:nth-child(2) {
@@ -1777,6 +1786,9 @@ school-nav {
 .contact-nav a:hover {
   background-color: #00C786; }
 
+ul {
+  background-color: #FFFFFF; }
+
 li:before {
   color: #00C786; }
 
@@ -1843,7 +1855,11 @@ iframe {
 
 ul {
   list-style: none;
-  margin-left: 27px; }
+  margin-left: 27px;
+  opacity: 0.99; }
+
+li {
+  opacity: 0.99; }
 
 .nav-research li:before {
   content: "\f101";
