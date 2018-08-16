@@ -5,13 +5,21 @@
   text-align: center;
 }
 
+label {
+  margin: 4px 0;
+}
 .newsletter-icon {
-  margin: 3px 0 0 3px;
+  margin: 0 0 4px 3px;
   padding: 0;
   width: 1.8rem;
 }
 
-
+#newsletter-input {
+  width: 36%;
+  max-width: 300px;
+  padding: 1px 6px;
+  min-width:145px;
+}
 
 .newsletter-submit {
   padding: 3px 5px;
@@ -22,12 +30,6 @@
   font-weight:bold;
 }
 
-#newsletter-input {
-  width: 36%;
-  max-width: 300px;
-  padding: 1px 6px;
-  min-width:145px;
-}
 
 .nav-low {
   text-align: center;
@@ -50,7 +52,8 @@
 
 .row-school{
   width:100%;
-  margin: auto 0px;
+  padding: 16px 24px;
+  margin: 8px 0px;
 }
 
 
@@ -79,12 +82,16 @@
 }
 
 
-.address {
-  padding-top:20px;
+p {
+  padding: 16px;
   text-align: center;
-  margin: 0 auto 10px;
+  margin: 0 10px 10px;
   // margin-bottom:8px;
 }
+
+// p.address {
+//   padding: 0 16px;
+// }
 
 footer p:first-child {
  max-width: 600px;
@@ -96,6 +103,14 @@ footer p:first-child {
   width:100%;
   padding: 2px 0 2px;
 }
+
+// .contact-nav:first-child {
+//   padding-left: 6px;
+// }
+//
+// .contact-nav:last-child {
+//   padding-right: 6px;
+// }
 
 a {
   text-align: center;
