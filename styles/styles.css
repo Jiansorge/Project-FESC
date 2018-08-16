@@ -10,6 +10,9 @@
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=40j0u0kOwFSrLNjAjNYONtHP5oI */
 /* As hex codes */
+* {
+  background-color: transparent; }
+
 .color-primary-0 {
   color: #FF5600; }
 
@@ -159,14 +162,14 @@ a {
 header {
   background-color: transparent; }
 
-.title h1:hover {
+h1:hover {
   background-color: #044180; }
 
 .nav-border:hover {
   background-color: #044180; }
 
 .title-main {
-  background-color: #FFFFFF; }
+  background-color: transparent; }
 
 .highlight-col *:hover, .highlight-col:hover {
   background-color: #044180; }
@@ -234,6 +237,9 @@ li:before {
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=40j0u0kOwFSrLNjAjNYONtHP5oI */
 /* As hex codes */
+* {
+  background-color: transparent; }
+
 .color-primary-0 {
   color: #FF5600; }
 
@@ -383,14 +389,14 @@ a {
 header {
   background-color: transparent; }
 
-.title h1:hover {
+h1:hover {
   background-color: #044180; }
 
 .nav-border:hover {
   background-color: #044180; }
 
 .title-main {
-  background-color: #FFFFFF; }
+  background-color: transparent; }
 
 .highlight-col *:hover, .highlight-col:hover {
   background-color: #044180; }
@@ -455,9 +461,22 @@ li:before {
 .nav-institutions li:before {
   color: black; }
 
-header {
-  background-color: transparent;
-  width: 100%; }
+.background {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%; }
+
+.background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%; }
 
 .title-icon {
   height: 1rem;
@@ -546,7 +565,7 @@ button:hover {
   margin-right: auto; }
 
 a h6, .connect-group {
-  border-top: groove black;
+  border-top: groove #FF5600 1px;
   margin: 0;
   padding: 16px 0 0;
   width: 100%;
@@ -563,6 +582,9 @@ a img {
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=40j0u0kOwFSrLNjAjNYONtHP5oI */
 /* As hex codes */
+* {
+  background-color: transparent; }
+
 .color-primary-0 {
   color: #FF5600; }
 
@@ -712,14 +734,14 @@ a {
 header {
   background-color: transparent; }
 
-.title h1:hover {
+h1:hover {
   background-color: #044180; }
 
 .nav-border:hover {
   background-color: #044180; }
 
 .title-main {
-  background-color: #FFFFFF; }
+  background-color: transparent; }
 
 .highlight-col *:hover, .highlight-col:hover {
   background-color: #044180; }
@@ -851,6 +873,9 @@ a {
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=40j0u0kOwFSrLNjAjNYONtHP5oI */
 /* As hex codes */
+* {
+  background-color: transparent; }
+
 .color-primary-0 {
   color: #FF5600; }
 
@@ -1000,14 +1025,14 @@ a {
 header {
   background-color: transparent; }
 
-.title h1:hover {
+h1:hover {
   background-color: #044180; }
 
 .nav-border:hover {
   background-color: #044180; }
 
 .title-main {
-  background-color: #FFFFFF; }
+  background-color: transparent; }
 
 .highlight-col *:hover, .highlight-col:hover {
   background-color: #044180; }
@@ -1083,7 +1108,8 @@ body {
   margin: 0  18px; }
 
 h2 {
-  padding: 8px 0px 8px 0px; }
+  padding: 8px 0px 8px 0px;
+  text-width: 100%; }
 
 .row-main {
   margin: 40px 0px 0px 21px; }
@@ -1095,7 +1121,8 @@ h2 {
   border: black solid; }
 
 .highlight-col {
-  border: black solid; }
+  border: black solid;
+  background-image: url(closeup_panels.jpg); }
 
 .summit, .summit img {
   -webkit-box-pack: center;
@@ -1224,6 +1251,10 @@ h3 .title-main {
 
 .row {
   overflow: hidden; }
+
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  background-size: cover; }
 
 .flex-container {
   display: -webkit-inline-box;

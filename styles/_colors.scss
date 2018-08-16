@@ -12,6 +12,10 @@
 /* Palette URL: http://paletton.com/#uid=40j0u0kOwFSrLNjAjNYONtHP5oI */
 /* As hex codes */
 
+* {
+  background-color: transparent;
+}
+
 .color-primary-0 { color: #FF5600 }	/* Main Primary color */
 .color-primary-1 { color: #FF6C22 }
 .color-primary-2 { color: #FF5600 }
@@ -109,7 +113,7 @@ header {
   background-color: transparent;
 }
 
-.title h1:hover {
+h1:hover {
   background-color: $color5;
 }
 
@@ -118,7 +122,7 @@ header {
 }
 
 .title-main {
-  background-color: $color6;
+  background-color: transparent;
 }
 
 .highlight-col *:hover, .highlight-col:hover {
@@ -182,6 +186,7 @@ footer {
 
 .row-school a:active, .row-school a:target {
   background-color: $color5;
+
 }
 
 .contact-nav a {
