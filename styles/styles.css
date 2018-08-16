@@ -348,6 +348,9 @@ h1, h2, h3, h4, h5, h6, a, p, iframe {
 .brochure:hover {
   background-color: #044180; }
 
+.brochure:visited {
+  color: #FF5600; }
+
 footer {
   background-color: #FFFFFF; }
 
@@ -748,6 +751,9 @@ h1, h2, h3, h4, h5, h6, a, p, iframe {
 
 .brochure:hover {
   background-color: #044180; }
+
+.brochure:visited {
+  color: #FF5600; }
 
 footer {
   background-color: #FFFFFF; }
@@ -1269,6 +1275,9 @@ h1, h2, h3, h4, h5, h6, a, p, iframe {
 .brochure:hover {
   background-color: #044180; }
 
+.brochure:visited {
+  color: #FF5600; }
+
 footer {
   background-color: #FFFFFF; }
 
@@ -1737,6 +1746,9 @@ h1, h2, h3, h4, h5, h6, a, p, iframe {
 
 .brochure:hover {
   background-color: #044180; }
+
+.brochure:visited {
+  color: #FF5600; }
 
 footer {
   background-color: #FFFFFF; }
