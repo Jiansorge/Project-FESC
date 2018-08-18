@@ -29,9 +29,13 @@
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="script/graphs_hw7_9.js"></script>
-    <!-- TODO: Update stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script src="script/header.js"></script>
+    <script src="script/footer.js"></script>
 
   </head>
 
@@ -43,15 +47,9 @@
   <header class="">
 
 
-    <!-- TODO -->
-    <!-- <iframe src="https://player.vimeo.com/video/145891501?background=1&amp;title=0&amp;byline=0&amp;portrait=0" class="background" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid0"></iframe> -->
-
-    <div class="row background">
+    <!-- <div class="row background">
       <img src="images/closeup_panels.jpg" alt="" class=" inline">
-    </div>
-
-
-
+    </div> -->
 
 
     <div class="row justify-content-between align-items-start">
@@ -136,9 +134,20 @@
 
   </header>
 
+  <header id="headerApp">
+    <headline></headline>
+  </header>
   <!--  -->
 
   <main class="container-fluid">
+
+
+    <!-- Backgound Image -->
+    <div class="row background">
+      <img src="images/closeup_panels.jpg" alt="" class=" inline">
+    </div>
+
+
     <div class="row row-main align-items-end justify-content-md-start justify-content-xs-center ">
 
       <!-- <img src="FESC_files/FESC_Logo_1.png" alt="" class="icon-main inline"> -->
@@ -171,7 +180,6 @@
     </nav>
 
 
-    <!-- TODO: Create highlight section -->
     <div class="row summary">
 
 
@@ -219,7 +227,7 @@
 
 
 
-   <!-- TODO: Homework 7: Google Charts -->
+   <!-- Homework 7: Google Charts -->
 
    <!-- Google Charts library, with no JS errors 	2
          Charts display data as given in txt files 	3
@@ -362,7 +370,10 @@
       </div>
     </nav>
   </footer>
-
+  
+  <footer id="footerApp">
+    <footline></footline>
+  </footer>
 <!-- </div> -->
 </body>
 </html>
