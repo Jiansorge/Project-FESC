@@ -815,23 +815,6 @@ li:before {
 .nav-institutions li:before {
   color: black; }
 
-.background {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%; }
-
-.background img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%; }
-
 .title-icon {
   height: 1rem;
   margin-top: 8px; }
@@ -846,7 +829,8 @@ a h1 {
 .search-column {
   padding: auto 0;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  z-index: 2; }
 
 .input {
   width: 80%;
@@ -904,7 +888,8 @@ button:hover {
 
 .nav-border {
   margin-bottom: 0px;
-  padding-bottom: 0px; }
+  padding-bottom: 0px;
+  z-index: 2; }
 
 .top-nav h3, .top-nav h6 {
   text-align: center; }
@@ -1814,6 +1799,24 @@ body {
   width: 100%;
   max-width: 1300px; }
 
+.background {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: 0; }
+
+.background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%; }
+
 .row-main img {
   width: 10%;
   min-width: 2rem;
@@ -1984,4 +1987,5 @@ html {
   .input-position input {
     margin: 0 auto;
     display: block; } }
+
 /*# sourceMappingURL=styles.css.map */
