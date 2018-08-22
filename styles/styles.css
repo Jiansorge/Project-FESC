@@ -1890,6 +1890,13 @@ li {
   margin-left: -1.5em;
   width: 1.3em; }
 
+#chart-production, #chart-consumption {
+  text-align: center;
+  margin: 5px auto;
+  width: 100%;
+  max-width: 854px;
+  height: 480px; }
+
 .nav-institutions li:before {
   content: "\f19c";
   font-family: FontAwesome;
