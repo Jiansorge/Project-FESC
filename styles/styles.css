@@ -1890,10 +1890,6 @@ li {
   margin-left: -1.5em;
   width: 1.3em; }
 
-.chart-* {
-  text-align: center;
-  margin: 5px auto; }
-
 .nav-institutions li:before {
   content: "\f19c";
   font-family: FontAwesome;
@@ -1987,4 +1983,5 @@ html {
   .input-position input {
     margin: 0 auto;
     display: block; } }
+
 /*# sourceMappingURL=styles.css.map */

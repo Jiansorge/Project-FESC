@@ -1,3 +1,4 @@
+
 //<!-- FESC Resdesign Project - HTML 300  -->
 //<!-- Google Charts for Homeworks 7 and 9 - graphs_hw7_9.js -->
 //<!-- Included in technical.html -->
@@ -23,7 +24,7 @@ function getData1() {
   // Create a new request object
   let request = new XMLHttpRequest();
   // URL to contact goes here
-  let requestUrl = "https://api.eia.gov/series/?api_key=626b941aa582f1466f09ff95922f4b50&series_id=SEDS.REPRB.FL.A";
+  let requestUrl = "https://api.eia.gov/series/?api_key=1dcae4c8dd534b6687acc4b0d6dc1c12&series_id=SEDS.REPRB.FL.A";
 
   request.open('GET', requestUrl, true);
   // Callback for when the request completes
@@ -79,7 +80,7 @@ function getData2() {
   let request = new XMLHttpRequest();
   // URL to contact goes here
   let requestUrl =
-  "https://api.eia.gov/series/?api_key=626b941aa582f1466f09ff95922f4b50&series_id=SEDS.TETCB.FL.A";
+  "https://api.eia.gov/series/?api_key=1dcae4c8dd534b6687acc4b0d6dc1c12&series_id=SEDS.TETCB.FL.A";
 
 
   request.open('GET', requestUrl, true)
@@ -126,10 +127,10 @@ function drawConsumptionChart(freshData) {
 
 
 
-document.addEventListener("DOMContentLoaded", function(){
+// document.addEventListener("DOMContentLoaded", function(){
   // getData();
   console.log("DOM fully loaded and parsed");
   console.log(status);
   drawProductionChart();
   drawConsumptionChart();
-});
+// });
